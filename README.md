@@ -8,9 +8,9 @@ build targets and options, when you press TAB a couple of times.
 
 Put the file `ant-completion.bash` somewhere it gets sourced,
 or source it inside a startup file (`.profile`, `.bashrc` etc).
-As an example you can put it inside a folder called 
-`.bash_completion.d`, and add this section to one of your 
-startup files:
+As an example you can put it inside a folder inside your
+`$HOME` directory, if you put it inside `$HOME/.bash_completion.d`
+and add this section to one of your startup files:
 
 
     if [ -d "${HOME}/.bash_completion.d" ]; then
@@ -19,6 +19,9 @@ startup files:
             . "$f"
         done
     fi
+
+
+you should hopefully get some completion for ant again
 
 
 [1]: http://ant.apache.org "Apache Ant Homepage"

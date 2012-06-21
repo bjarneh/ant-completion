@@ -32,7 +32,7 @@
 #  if [ -d "${HOME}/.bash_completion.d" ]; then
 #      for f in "$HOME/.bash_completion.d"/*;
 #      do
-#          . $f
+#          . "$f"
 #      done
 #  fi
 #  
@@ -78,7 +78,7 @@ _ant(){
 complete -o default -F _ant ant
 
 
-# Inline python in Bash (more readable then JSP and Tcl)
+# Inline Python in Bash (more readable then JSP and Tcl)
 function run_python(){
 
 python <<EOF
