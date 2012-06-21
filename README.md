@@ -21,7 +21,10 @@ and add this section to one of your startup files:
     fi
 
 
-you should hopefully get some completion for ant again
+you should hopefully get some completion for ant again, you can
+of course just source the script as well..
+
+    source ant-completion.bash
 
 
 [1]: http://ant.apache.org "Apache Ant Homepage"
