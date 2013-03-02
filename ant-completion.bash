@@ -1,4 +1,4 @@
-#!/bin/bash
+#!bash
 #
 #  Copyright (C) 2012 bjarneh
 #
